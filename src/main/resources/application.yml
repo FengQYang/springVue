@@ -1,0 +1,11 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/zonhe2?useUnicode=true&characterEncoding=utf8&useSSL=false
+    password: 123456
+    username: root
+  jpa:
+    database: MySQL
+    generate-ddl: true

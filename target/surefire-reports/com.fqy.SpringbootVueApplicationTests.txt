@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.fqy.SpringbootVueApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.21 s <<< FAILURE! - in com.fqy.SpringbootVueApplicationTests
+contextLoads(com.fqy.SpringbootVueApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to load property source from location 'classpath:/application.yml'
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: 
+while scanning a simple key
+ in 'reader', line 4, column 5:
+        url:jdbc:mysql://localhost:3306/ ... 
+        ^
+could not find expected ':'
+ in 'reader', line 5, column 5:
+        password: 123456
+        ^
+
+
