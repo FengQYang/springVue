@@ -1,6 +1,9 @@
 com\fqy\SpringbootVueApplication.class
+com\fqy\controller\AlipayController.class
 com\fqy\controller\UserController.class
 com\fqy\service\UserService.class
 com\fqy\dao\UserDao.class
 com\fqy\service\serviceimpl\UserServiceImpl.class
+com\fqy\controller\EmailController.class
 com\fqy\pojo\User.class
+com\fqy\service\EmailService.class
