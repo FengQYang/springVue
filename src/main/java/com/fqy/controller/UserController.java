@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin
-@Component111
+@Component
 public class UserController {
 
     @Autowired
